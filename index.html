@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("qwM7CxJ6-sge3zJxy");
+       })();
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Andrei Arseni">
+    <meta name="keywords" content="Andrei Arseni">
+    <meta name="author" content="Andrei Arseni">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preload" href="images/me.jpeg" as="image">
+    <title>CV - Arseni Andrei</title>
+</head>
+
+<body>
+
+    <div id="loader-wrapper">
+        <div class="loader-content">
+            <div class="loader-text">
+                <div>Arseni A</div>
+                <div class="i-letter">
+                    <div class="">
+                        <div class="loader-inner"></div>
+                    </div>
+                    <div class="hide-square">
+                    </div>
+                    n
+                </div>
+                <div>
+                    drei
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="page-content">
+
+        <header data-aos="fade-down" data-aos-delay="300">
+            <div id="navbar" class="nav">
+                <a href="">Arseni Andrei</a>
+                <a href="#about" onclick="linkClick()">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    About
+                </a>
+                <a href="#resume" onclick="linkClick()">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    Resume
+                </a>
+                <a href="#contacts" onclick="linkClick()">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    Contacts
+                </a>
+                <a class="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </div>
+        </header>
+
+        <main>
+
+            <section id="intro">
+                <div data-aos="zoom-in" data-aos-delay="300">
+                    <a class="nume" href="#about">
+                        Arseni Andrei
+                    </a>
+
+                    <div id="tiparire-job">
+                        >_ <span id="job-typeit"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="about-card">
+                    <h1>About me</h1>
+
+                    <div class="row">
+                        <div class="col-50 centered">
+                            <img data-aos="flip-left" class="imagine-profil" src="images/me.jpeg" alt="eu" />
+                        </div>
+                        <div class="col-50">
+                            <div class="info-despre" data-aos="fade-left">
+                                <b>Name: </b> Arseni Andrei <br />
+                                <b>Age: </b> <span id="virsta"></span> <br />
+                                <b>Job: </b> Back-end developer <br />
+                                <b>Languages: </b> Romanian, English<br />
+                                <b>Email: </b> andreiarsenii90@gmail.com <br />
+                                <b>From: </b> Leova, Moldova <br />
+                                <a class="download-cv" href="resources/nothing.pdf"
+                                    download="nothing.pdf">
+                                    Download CV
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up">
+
+                        <div class="row">
+                            <div class="col-100">
+                                <div class="text-despre">
+                                    <p>
+                                        I am a young IT professional from the Republic of Moldova
+                                        passionate about software development and especially about
+                                        web application development. I have knowledge in other fields
+                                        such as databases and algorithms.
+                                        I work with these technologies:
+                                        <b>
+                                            HTML, CSS, JS, Python, Django, PostgreSQL, Firebase, AJAX, Django Channels, Django REST Framework, 
+                                            Selenium,Git and others.
+                                            
+                                        </b>
+                                        My favourite programming languages are:
+                                        <b>
+                                            Python, C++, JavaScript
+                                        </b>
+                                        
+                                        You can find projects developed as a hobby here:
+                                        <a href="https://github.com/AAndrei06?tab=repositories"
+                                            target="_blank">GitHub</a>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div data-aos="fade-up">
+
+                    <div class="skills">
+
+                        <div class="row">
+                            <div class="col-50">
+                                <div class="skill">
+                                    <span class="skill-name">Django REST Framework</span>
+                                    <span class="skill-percentage">95%</span>
+                                    <div class="progress-bar">
+                                        <div style="width: 95%;" class="progress" data-aos="zoom-in"
+                                            data-aos-offset="50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-50">
+                                <div class="skill">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">95%</span>
+                                    <div class="progress-bar">
+                                        <div style="width: 95%;" class="progress" data-aos="zoom-in"
+                                            data-aos-offset="50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-50">
+                                <div class="skill">
+                                    <span class="skill-name">PostgreSQL</span>
+                                    <span class="skill-percentage">85%</span>
+                                    <div class="progress-bar">
+                                        <div style="width: 85%;" class="progress" data-aos="zoom-in"
+                                            data-aos-offset="50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-50">
+                                <div class="skill">
+                                    <span class="skill-name">Django</span>
+                                    <span class="skill-percentage">80%</span>
+                                    <div class="progress-bar">
+                                        <div style="width: 80%;" class="progress" data-aos="zoom-in"
+                                            data-aos-offset="50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-50">
+                                <div class="skill">
+                                    <span class="skill-name">Django Channels</span>
+                                    <span class="skill-percentage">90%</span>
+                                    <div class="progress-bar">
+                                        <div style="width: 90%;" class="progress" data-aos="zoom-in"
+                                            data-aos-offset="50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-50">
+                                <div class="skill">
+                                    <span class="skill-name">Celery</span>
+                                    <span class="skill-percentage">55%</span>
+                                    <div class="progress-bar">
+                                        <div style="width: 55%;" class="progress" data-aos="zoom-in"
+                                            data-aos-offset="50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-50">
+                                <div class="skill">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage">80%</span>
+                                    <div class="progress-bar">
+                                        <div style="width: 80%;" class="progress" data-aos="zoom-in"
+                                            data-aos-offset="50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-50">
+                                <div class="skill">
+                                    <span class="skill-name">HTML / CSS</span>
+                                    <span class="skill-percentage">90%</span>
+                                    <div class="progress-bar">
+                                        <div style="width: 90%;" class="progress" data-aos="zoom-in"
+                                            data-aos-offset="50">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+            </section>
+
+            <section id="resume">
+                <h1>Resume</h1>
+                <h2>Experience (Not working experience)</h2>
+
+                <div class="experience-row">
+                    <div class="experience-title" data-aos="fade-right">
+                        2019 - Present. <br /><br />
+                        Projects and interesting stuff
+                    </div>
+                    <div class="experience-description" data-aos="fade-left">
+                        <h3>My projects <i class="fa fa-briefcase" aria-hidden="true"></i></h3>
+                        I never had a job in programming., but I have a lot of experience in programming languages and frameworks, I have participated in many Olympiads and competitions where I had to work together with my teammate on Git and GitHub. Also on github I have all the projects developed by me in several programming languages such as Python and JavaScript, frameworks such as Django and many other technologies. At the same time, I spend my time solving problems on LeetCode to develop my logical and algorithmic thinking,but also the ability to solve problems.
+                        <br>
+                        My GitHub account: <a href = "https://github.com/AAndrei06?tab=repositories" target="_blank">GitHub</a>
+                        <br>
+                        My LeetCode account: <a href = "https://leetcode.com/andreiarsenii90/" target="_blank">LeetCode</a>
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <section id="studies">
+                <h2>Education</h2>
+
+
+
+                <div class="studies-row">
+                    <div class="studies-title" data-aos="fade-right">
+                        2013 Sep. - Present <br /><br />
+                        LT Mihai Eminescu Leova
+                    </div>
+                    <div class="studies-description" data-aos="fade-left">
+                        <h3> Lyceum <i class="fa fa-graduation-cap" aria-hidden="true"></i></h3>
+                        Now I study in high school, I am a very good student,every year I have an average of over 9.50.I participate in many school olympiads in different subjects, which I often win.I am interested in mathematics, physics and informatics.In the future I want to choose my baccalaureate exam in informatics.
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="volunteer">
+                
+
+                
+            </section>
+
+            <section id="achievments">
+                <h2>Achievments</h2>
+
+                <div class="achievment-row">
+                    <div class="achievment-title" data-aos="fade-right">
+                        May,2022<br /><br />
+                        FLL 2021-2022
+                    </div>
+                    <div class="achievment-description" data-aos="fade-left">
+                        <h3>FLL Finalist <i class="fa fa-trophy" aria-hidden="true"></i></h3>
+                        
+                            On May 2021, I won my first medal at the first lego league robotics 
+                            competition together with the high school team. We also won 1 cup, this was my first 
+                            computer science competition.
+                    </div>
+                </div>
+
+                <div class="achievment-row">
+                    <div class="achievment-title" data-aos="fade-right">
+                        Jan,2023 <br /><br />
+                        Tekwill's C/C++ programming marathon 2023
+                    </div>
+                    <div class="achievment-description" data-aos="fade-left">
+                        <h3>Mention <i class="fa fa-trophy" aria-hidden="true"></i></h3>
+                        At the C/C++ programming marathon of Tekwil in 2022, I got the 4th place in the southern region of Moldova, thus I won a mention. We were given 4 problems to solve in 3 hours at the University "Bogdan Petriceicu-Hasdeu" from Cahul.
+    
+                    </div>
+                </div>
+
+                <div class="achievment-row">
+                    <div class="achievment-title" data-aos="fade-right">
+                        Feb, 2023 <br /><br />
+                    District Olympiad in Informatics.
+                    </div>
+                    <div class="achievment-description" data-aos="fade-left">
+                        <h3>First Place <i class="fa fa-trophy" aria-hidden="true"></i></h3>
+                        At the district computer science olympiad, I won 1st place, I was in 10th grade then. We were given 4 problems to be solved in 4 hours in programming languages like Pascal and C++, which I finished in 2 and a half hours.
+                    </div>
+                </div>
+
+                <div class="achievment-row">
+                    <div class="achievment-title" data-aos="fade-right">
+                        Mar, 2023 <br /><br />
+                    Programming and web design
+                    </div>
+                    <div class="achievment-description" data-aos="fade-left">
+                        <h3>Second Place <i class="fa fa-trophy" aria-hidden="true"></i></h3>
+                        In March 2023, I participated in Tekwill's web design and development 
+                        contest in the southern region of Moldova. There, together with my teammate, we won the 2nd place.
+                         Together we created a website for a store.
+                    </div>
+                </div>
+
+                <div class="achievment-row">
+                    <div class="achievment-title" data-aos="fade-right">
+                        May, 2023 <br /><br />
+                    FLL
+                    </div>
+                    <div class="achievment-description" data-aos="fade-left">
+                        <h3>FLL Finalist for the 2nd time <i class="fa fa-trophy" aria-hidden="true"></i></h3>
+                        In May 2023, together with the robotics team of the high school, we reached the finals of FLL Moldova, we won the finalist medal, but we also came to the high school with 2 cups.
+                    </div>
+                </div>
+
+                <div class="achievment-row">
+                    <div class="achievment-title" data-aos="fade-right">
+                        Jan, 2024 <br /><br />
+                    Tekwill's C/C++ programming marathon 2024
+                    </div>
+                    <div class="achievment-description" data-aos="fade-left">
+                        <h3>1st place in all districts of Moldova <i class="fa fa-trophy" aria-hidden="true"></i></h3>
+                        
+                    On January 27, 2024, I participated in the algorithm programming marathon in C/C++ at Tekwill at the stage where all the districts of Moldova participated in the high school category. There we were given 4 problems to be solved in 3 hours, but I solved them on all in 58 minutes accumulating 400 points. The event took place at UTM.
+                    </div>
+                </div>
+
+                <div class="achievment-row">
+                    <div class="achievment-title" data-aos="fade-right">
+                     2021 - 2024 <br /><br />
+                    Other Olympiads
+                    </div>
+                    <div class="achievment-description" data-aos="fade-left">
+                        <h3>The results of other Olympiads<i class="fa fa-trophy" aria-hidden="true"></i></h3>
+                        
+                        Throughout my high school years, I participated in many district and republican Olympiads. I won: 2 times 3rd place at the district biology Olympiad, 3rd place in history, 2nd place in history, mention at the district English language Olympiad, many Olympiads in school and other competitions.
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section id="contacts">
+                <h1>Contact Me</h1>
+
+                <div class="contacts-form" data-aos="zoom-in-right">
+                    <div class="contacts-header">
+                        <div class="contacts-header-left">
+                            <div class="contacts-header-button close"></div>
+                            <div class="contacts-header-button maximize"></div>
+                            <div class="contacts-header-button minimize"></div>
+                        </div>
+                        <div class="contacts-header-right">
+                            <div class="contacts-header-ellipsis"></div>
+                            <div class="contacts-header-ellipsis"></div>
+                            <div class="contacts-header-ellipsis"></div>
+                        </div>
+                    </div>
+                    <div class="contacts-body">
+                        <div class="row">
+                            <div class="col-40">
+                                <div class="contacts-info">
+                                    <div class="title-contacts">
+                                        <div>Andrei</div>
+                                        <div>Arseni</div>
+                                    </div>
+                                    <div class="email-contacts">
+                                        andreiarsenii90@gmail.com
+                                    </div>
+                                </div>
+                                <div id="validation-message">
+                                </div>
+                            </div>
+                            <div class="col-60">
+                                <div id="contacts-loading">
+                                    <i class="fa fa-circle-o-notch fa-spin"></i>
+                                </div>
+                                <div class="contacts-fields">
+                                    <input id="contact-name" type="text" placeholder="Name" class="contacts-input" />
+                                    <input id="contact-email" type="text" placeholder="Email" class="contacts-input" />
+                                    <textarea id="contact-message" class="contacts-input" placeholder="Message"
+                                        rows="3"></textarea>
+                                    <div class="send-btn" onclick="sendMessage()">
+                                        SEND
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+            </section>
+
+        </main>
+
+        <footer>
+
+            <h3>Andrei Arseni</h3>
+            <div class="footer-images">
+                <a href="https://www.facebook.com/andrei.arseni.127" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/andrei.arseni.127/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+        </footer>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/8383e75d7d.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
+
